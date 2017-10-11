@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ENV REFRESHED_AT "2017-10-11 14:25:00"
+ENV REFRESHED_AT "2017-10-11 14:37:00"
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y -q nginx net-tools \
